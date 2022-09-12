@@ -16,13 +16,18 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
+      appBar: AppBar(
+        title: const Text("Welcome back"),
+        backgroundColor: Colors.green,
+      ),
       body: Container(
         color: Colors.white,
         width: MediaQuery.of(context).size.width,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
+            Image(width: 100, image: AssetImage('assets/google.png'),),
             Text(
               FirebaseAuth.instance.currentUser!.displayName!,
               style: const TextStyle(
