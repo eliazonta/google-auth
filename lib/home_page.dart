@@ -27,7 +27,12 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image(width: 100, image: AssetImage('assets/google.png'),),
+            CircleAvatar(
+              radius: 80,
+              backgroundImage: NetworkImage(FirebaseAuth.instance.currentUser!.photoURL!),
+            ),
+            //SizedBox(height: 20,)
+            //Image(width: 100, image: AssetImage('assets/google.png'),),
             SizedBox(height: 30,),
             Text(
               FirebaseAuth.instance.currentUser!.displayName!,

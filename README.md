@@ -18,4 +18,4 @@ then run
 ## Preview
 First Screenshot           |  Second Screenshot        | Third Screenshot
 :-------------------------:|:-------------------------:|:-------------------------:
-![](./assets/screen1.png)  |  ![](./assets/screen2.png)| ![](./assets/screen3.png)
+![](./assets/screen1.png)  |  ![](./assets/screen2.png)| ![](./assets/screen4.png)
