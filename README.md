@@ -1,16 +1,21 @@
-# google_auth
+# Google Sign In
 
-A new Flutter project.
+Super simple example of integration between a [Flutter](https://flutter.dev) application and [Firebase](https://firebase.google.com) used for Google Authentication
 
-## Getting Started
+## How to run locally
 
-This project is a starting point for a Flutter application.
+First clone the repo with
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/eliazonta/google-auth.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+then run
+
+```flutter run```
+
+## Preview
+First Screenshot           |  Second Screenshot        | Third Screenshot
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./assets/screen1.png)  |  ![](./assets/screen2.png)| ![](./assets/screen3.png)

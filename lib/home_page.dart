@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image(width: 100, image: AssetImage('assets/google.png'),),
+            SizedBox(height: 30,),
             Text(
               FirebaseAuth.instance.currentUser!.displayName!,
               style: const TextStyle(

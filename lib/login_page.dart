@@ -31,9 +31,9 @@ class _LoginPageState extends State<LoginPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text("Hello, \nGoogle Sign In",
+            const Text("Hello, \nSign In with Google ⬇️",
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 25,
             ),
             ),
             GestureDetector(
